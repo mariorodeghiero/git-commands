@@ -1,24 +1,50 @@
 .container {
-  position: absolute;
-  width: 20%;
-  height: 100%;
-  border-right: 1px solid#aeb1b0;
+  // position: absolute;
+  // width: 100%;
   h2 {
     padding: 15px;
     margin-bottom: 30px;
     font-size: 1.6rem;
-    color: #ffffff;
+    color: #000;
   }
-  a {
-    margin-top: 10% !important;
-    font-size: 1.4rem;
-    padding: 20%;
-    color: #aeb1b0;
-    text-decoration: none;
-    list-style: none;
-    &:hover {
-      opacity: 1;
-      color: #19f9d8;
+  p {
+    margin: 10px;
+    float: right;
+  }
+
+  .containerBox {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30%);
+    grid-gap: 10px;
+    .box {
+      width: 100%;
+      padding: 10px;
+      h3 {
+        text-align: center;
+        padding-bottom: 4px;
+      }
+      hr {
+        margin: 0 auto;
+        width: 80%;
+      }
+      ul {
+        padding-top: 20px;
+        li {
+          padding: 5px;
+        }
+      }
     }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  p {
+    text-align: center;
+    padding: 10px;
   }
 }
