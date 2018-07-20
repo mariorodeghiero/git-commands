@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid#aeb1b0;
+  h2 {
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    color: #ffffff;
+  }
+  a {
+    margin-top: 10% !important;
+    font-size: 1.4rem;
+    padding: 20%;
+    color: #aeb1b0;
+    text-decoration: none;
+    list-style: none;
+    &:hover {
+      opacity: 1;
+      color: #19f9d8;
+    }
+  }
+}
