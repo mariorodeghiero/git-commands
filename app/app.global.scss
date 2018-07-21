@@ -9,18 +9,19 @@
   padding: 0;
 }
 
-// body {
-//   position: relative;
-//   color: #aeb1b0;
-//   height: 100vh;
-//   background-color: #002b36;
-//   background-image: linear-gradient(
-//     45deg,
-//     rgba(4, 131, 163, 0.5) 10%,
-//     rgba(0, 43, 54, 0.7)
-//   );
-//   overflow-y: hidden;
-// }
+html,
+body {
+  position: relative;
+  color: #aeb1b0;
+  height: 100vh;
+  background-color: #002b36;
+  background-image: linear-gradient(
+    90deg,
+    rgba(4, 131, 163, 0.5) 10%,
+    rgba(0, 43, 54, 0.7)
+  );
+  // overflow-y: hidden;
+}
 
 h1,
 h2,
@@ -28,6 +29,7 @@ h3,
 h4,
 a,
 p,
+li,
 span,
 button {
   font-family: "Roboto";
