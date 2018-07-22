@@ -1,0 +1,44 @@
+{
+  "git": [
+    {
+      "title": "Configurations",
+      "command": [
+        {
+          "id": 1,
+          "command": "git config --global user.name \"your name\"",
+          "note": "Configure the author name"
+        },
+        {
+          "id": 2,
+          "command": "git config --global user.email \"your@email.com\"",
+          "note": "Configure the author email"
+        },
+        {
+          "id": 3,
+          "command": "git config --global color.ui true",
+          "note": "xxx"
+        },
+        {
+          "id": 4,
+          "command": "git config --list",
+          "note": "xxx"
+        }
+      ]
+    },
+    {
+      "title": "Starting a repository",
+      "command": [
+        {
+          "id": 1,
+          "command": "git init",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git status",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}
