@@ -1,8 +1,8 @@
 .container {
-  min-height: 100%;
+  min-height: 660px;
   width: 100%;
   h2 {
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 30px;
     font-size: 1.6rem;
     font-weight: 300;
@@ -12,12 +12,18 @@
     margin: 10px;
     float: right;
   }
+  img {
+    float: left;
+    padding: 20px;
+    width: 28px;
+    height: 28px;
+  }
   .containerBox {
     margin: 0 auto;
     width: 90%;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 320px);
     grid-template-rows: auto;
     grid-gap: 10px;
     .box {
@@ -46,7 +52,7 @@
 }
 
 footer {
-  // position: fixed;
+  // margin-top: 10%;
   bottom: 0;
   width: 100%;
   height: 40px;

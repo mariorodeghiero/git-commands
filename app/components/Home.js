@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 // import {Link} from 'react-router-dom';
 import styles from './Home.scss';
+import icon from "../../resources/icon.svg"
 
 type Props = {};
 
@@ -13,7 +14,8 @@ export default class Home extends Component < Props > {
       <div>
         <div className={styles.container} data-tid="container">
           <p>v1.0.0</p>
-          <h2>Git Cheat Sheet</h2>
+          <img src={icon} />
+          <h2>Cheat Sheet</h2>
           <div className={styles.containerBox} data-tid="containerBox">
             <div className={styles.box} data-tid="box">
               <h3>Configurations</h3>
