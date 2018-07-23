@@ -6,37 +6,53 @@
     margin-bottom: 30px;
     font-size: 1.6rem;
     font-weight: 300;
-    color: #aeb1b0;
+    // color: #aeb1b0;
+    color: #d3d3d3;
   }
   p {
-    margin: 10px;
+    margin: 20px;
     float: right;
   }
-  img {
+  .logo {
     float: left;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
     width: 28px;
     height: 28px;
   }
   .containerBox {
-    margin: 0 auto;
-    width: 90%;
+    align-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 320px);
+    grid-template-columns: repeat(auto-fill, 350px);
     grid-template-rows: auto;
     grid-gap: 10px;
     .box {
       width: 100%;
       padding: 10px;
+      a {
+        text-decoration: none;
+        color: inherit;
+        .externalLink {
+          float: right;
+          padding-right: 25px;
+          margin-top: -20px;
+          width: 14px;
+          height: 14px;
+        }
+      }
       h3 {
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         font-weight: 200;
+        font-size: 1.2rem;
+        color: #d3d3d3;
       }
       hr {
         margin: 0 auto;
-        opacity: 0.2;
+        opacity: 0.1;
         width: 70%;
       }
       ul {
@@ -44,7 +60,11 @@
         padding-top: 20px;
         li {
           padding: 5px;
-          font-size: 0.8rem;
+          font-size: 0.9rem;
+          &:hover {
+            font-weight: 200;
+            color: #dfdbdb;
+          }
         }
       }
     }
@@ -52,12 +72,9 @@
 }
 
 footer {
-  // margin-top: 10%;
   bottom: 0;
   width: 100%;
-  height: 40px;
   p {
     text-align: center;
-    padding: 10px;
   }
 }

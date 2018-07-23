@@ -44,17 +44,17 @@ export default class MenuBuilder {
 
   buildDarwinTemplate() {
     const subMenuAbout = {
-      label: 'Git Cheat sheet',
+      label: 'Git CheatSheet',
       submenu: [
         {
-          label: 'About Git Cheat sheet',
+          label: 'About Git CheatSheet',
           selector: 'orderFrontStandardAboutPanel:'
         },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
         { type: 'separator' },
         {
-          label: 'Hide ElectronReact',
+          label: 'Hide CheatSheet',
           accelerator: 'Command+H',
           selector: 'hide:'
         },

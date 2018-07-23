@@ -39,6 +39,66 @@
           "note": ""
         }
       ]
+    },
+    {
+      "title": "Starting files",
+      "command": [
+        {
+          "id": 1,
+          "command": "git add my_new_file.txt",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git add my-file.ts another-file.js",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git add .",
+          "note": ""
+        },
+        {
+          "id": 3,
+          "command": "git add --all",
+          "note": ""
+        },
+        {
+          "id": 4,
+          "command": "git rm --cached file-name.txt",
+          "note": ""
+        },
+        {
+          "id": 5,
+          "command": "git reset file-name.txt",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Commiting",
+      "command": [
+        {
+          "id": 1,
+          "command": "git commit -m \"Add three files\"",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git commit -a -m \"Do something once more\"",
+          "note": ""
+        },
+        {
+          "id": 3,
+          "command": "git reset --soft HEAD^",
+          "note": ""
+        },
+        {
+          "id": 4,
+          "command": "git commit --amend -m \"enter your message\"",
+          "note": ""
+        }
+      ]
     }
   ]
 }
