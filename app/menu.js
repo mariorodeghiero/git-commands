@@ -50,9 +50,6 @@ export default class MenuBuilder {
           label: 'About Git CheatSheet',
           selector: 'orderFrontStandardAboutPanel:'
         },
-        { type: 'separator' },
-        { label: 'Services', submenu: [] },
-        { type: 'separator' },
         {
           label: 'Hide CheatSheet',
           accelerator: 'Command+H',
