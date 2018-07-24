@@ -2,6 +2,8 @@
   "git": [
     {
       "title": "Configurations",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
       "command": [
         {
           "id": 1,
@@ -20,13 +22,30 @@
         },
         {
           "id": 4,
+          "command": "git config format.pretty oneline",
+          "note": "xxx"
+        },
+        {
+          "id": 5,
           "command": "git config --list",
+          "note": "xxx"
+        },
+        {
+          "id": 6,
+          "command": "git help config",
+          "note": "xxx"
+        },
+        {
+          "id": 7,
+          "command": "git help",
           "note": "xxx"
         }
       ]
     },
     {
       "title": "Starting a repository",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
       "command": [
         {
           "id": 1,
@@ -37,39 +56,76 @@
           "id": 2,
           "command": "git status",
           "note": ""
+        },
+        {
+          "id": 3,
+          "command": "git diff --stat",
+          "note": ""
+        },
+        {
+          "id": 4,
+          "command": "git log",
+          "note": ""
+        },
+        {
+          "id": 5,
+          "command": "git log --author=name_author",
+          "note": ""
+        },
+        {
+          "id": 6,
+          "command": "git log --pretty=oneline",
+          "note": ""
+        },
+        {
+          "id": 7,
+          "command": "git log --graph --oneline --decorate --all",
+          "note": ""
+        },
+        {
+          "id": 8,
+          "command": "git log --name-status",
+          "note": ""
+        },
+        {
+          "id": 9,
+          "command": "git log --help",
+          "note": ""
         }
       ]
     },
     {
       "title": "Starting files",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
       "command": [
         {
           "id": 1,
-          "command": "git add my_new_file.txt",
+          "command": "git add file-name.txt",
           "note": ""
         },
         {
           "id": 2,
-          "command": "git add my-file.ts another-file.js",
-          "note": ""
-        },
-        {
-          "id": 2,
-          "command": "git add .",
+          "command": "git add file-name.ts another-file.js",
           "note": ""
         },
         {
           "id": 3,
-          "command": "git add --all",
+          "command": "git add .",
           "note": ""
         },
         {
           "id": 4,
-          "command": "git rm --cached file-name.txt",
+          "command": "git add --all",
           "note": ""
         },
         {
           "id": 5,
+          "command": "git rm --cached file-name.txt",
+          "note": ""
+        },
+        {
+          "id": 6,
           "command": "git reset file-name.txt",
           "note": ""
         }
@@ -77,6 +133,8 @@
     },
     {
       "title": "Commiting",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
       "command": [
         {
           "id": 1,
@@ -90,12 +148,106 @@
         },
         {
           "id": 3,
-          "command": "git reset --soft HEAD^",
+          "command": "git commit --amend -m \"enter your message\"",
           "note": ""
         },
         {
           "id": 4,
-          "command": "git commit --amend -m \"enter your message\"",
+          "command": "git reset --soft HEAD^",
+          "note": ""
+        },
+        {
+          "id": 5,
+          "command": "git reset --hard origin/master",
+          "note": ""
+        },
+        {
+          "id": 6,
+          "command": "git tag 1.0.0 commit_id",
+          "note": ""
+        },
+        {
+          "id": 7,
+          "command": "git tag -a v1.0.0 -m \"my version 1.0.0\"",
+          "note": ""
+        },
+        {
+          "id": 8,
+          "command": "git show v1.0",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Pulling and pushing",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
+      "command": [
+        {
+          "id": 1,
+          "command": "git remote add origin https://url",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git remote set-url origin https://url",
+          "note": ""
+        },
+        {
+          "id": 3,
+          "command": "git push -u origin master",
+          "note": ""
+        },
+        {
+          "id": 4,
+          "command": "git push -f origin master",
+          "note": ""
+        },
+        {
+          "id": 5,
+          "command": "git remote -v",
+          "note": ""
+        },
+        {
+          "id": 6,
+          "command": "git clone https://url",
+          "note": ""
+        },
+        {
+          "id": 7,
+          "command": "git pull",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Branching",
+      "url":
+        "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
+      "command": [
+        {
+          "id": 1,
+          "command": "git branch",
+          "note": ""
+        },
+        {
+          "id": 2,
+          "command": "git branch branch-name",
+          "note": ""
+        },
+        {
+          "id": 3,
+          "command": "git checkout branch-name",
+          "note": ""
+        },
+        {
+          "id": 4,
+          "command": "git checkout -b branch-name",
+          "note": ""
+        },
+        {
+          "id": 5,
+          "command": "git merge branch-name",
           "note": ""
         }
       ]
