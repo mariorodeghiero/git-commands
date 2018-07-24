@@ -8,47 +8,48 @@
         {
           "id": 1,
           "command": "git config --global user.name \"your name\"",
-          "note": "Configure the author name"
+          "note": "Configure the author name."
         },
         {
           "id": 2,
           "command": "git config --global user.email \"your@email.com\"",
-          "note": "Configure the author email"
+          "note": "Configure the author email."
         },
         {
           "id": 3,
           "command": "git config --global color.ui true",
-          "note": "xxx"
+          "note": "Git automatically colors most of its output."
         },
         {
           "id": 4,
-          "command": "git config format.pretty oneline",
+          "command": "git config format.pretty oneline.",
           "note": "xxx"
         },
         {
           "id": 5,
           "command": "git config --list",
-          "note": "xxx"
+          "note": "View your Git configurations."
         },
         {
           "id": 6,
           "command": "git help config",
-          "note": "xxx"
+          "note": "Getting help in configuring."
         },
         {
           "id": 7,
           "command": "git help",
-          "note": "xxx"
+          "note": "Getting Help."
         },
         {
           "id": 8,
           "command": "git init",
-          "note": ""
+          "note": "Initializing Git repository."
         },
         {
           "id": 9,
           "command": "git status",
-          "note": ""
+          "note":
+            "List the files you've changed and those you still need to add or commit."
         }
       ]
     },
@@ -65,17 +66,18 @@
         {
           "id": 2,
           "command": "git log",
-          "note": ""
+          "note":
+            "Lists the commits made in the repository in chronological order."
         },
         {
           "id": 3,
           "command": "git log --author=name_author",
-          "note": ""
+          "note": "List author"
         },
         {
           "id": 4,
           "command": "git log --pretty=oneline",
-          "note": ""
+          "note": "Shows each commit on a single line"
         },
         {
           "id": 5,
@@ -84,8 +86,8 @@
         },
         {
           "id": 6,
-          "command": "git log --name-status",
-          "note": ""
+          "command": "git log --stat",
+          "note": "See some abbreviated statistics for each commit."
         },
         {
           "id": 7,
@@ -102,32 +104,33 @@
         {
           "id": 1,
           "command": "git add file-name.txt",
-          "note": ""
+          "note": "Add a specific file."
         },
         {
           "id": 2,
           "command": "git add file-name.ts another-file.js",
-          "note": ""
+          "note": "Add two different files."
         },
         {
           "id": 3,
           "command": "git add .",
-          "note": ""
+          "note": "Add files located in the root directory."
         },
         {
           "id": 4,
           "command": "git add --all",
-          "note": ""
+          "note":
+            "Add files from those other directories plus the files in the root directory to the staging area."
         },
         {
           "id": 5,
           "command": "git rm --cached file-name.txt",
-          "note": ""
+          "note": "Removing files from the staging area."
         },
         {
           "id": 6,
           "command": "git reset file-name.txt",
-          "note": ""
+          "note": "Untrack files."
         }
       ]
     },
@@ -170,37 +173,37 @@
         {
           "id": 1,
           "command": "git remote add origin https://url",
-          "note": ""
+          "note": "Add a remote origin."
         },
         {
           "id": 2,
           "command": "git remote set-url origin https://url",
-          "note": ""
+          "note": "Set a remote origin"
         },
         {
           "id": 3,
           "command": "git push -u origin master",
-          "note": ""
+          "note": "Copying your code to a remote repository"
         },
         {
           "id": 4,
           "command": "git push -f origin master",
-          "note": ""
+          "note": "Forced update."
         },
         {
           "id": 5,
           "command": "git remote -v",
-          "note": ""
+          "note": "List all remote repositories."
         },
         {
           "id": 6,
           "command": "git clone https://url",
-          "note": ""
+          "note": "Clone an entire project from a remote repository."
         },
         {
           "id": 7,
           "command": "git pull",
-          "note": ""
+          "note": "Update your local repository."
         },
         {
           "id": 8,
@@ -227,27 +230,27 @@
         {
           "id": 1,
           "command": "git branch",
-          "note": ""
+          "note": "See current branche."
         },
         {
           "id": 2,
           "command": "git branch branch-name",
-          "note": ""
+          "note": "Create a new branch."
         },
         {
           "id": 3,
           "command": "git checkout branch-name",
-          "note": ""
+          "note": "Switch branches."
         },
         {
           "id": 4,
           "command": "git checkout -b branch-name",
-          "note": ""
+          "note": "Create a new branch and switch to that branch right away."
         },
         {
           "id": 5,
           "command": "git merge branch-name",
-          "note": ""
+          "note": "Merge Branch."
         }
       ]
     }
