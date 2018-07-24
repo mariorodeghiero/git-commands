@@ -1,15 +1,12 @@
-// @flow
 import React, {Component} from 'react';
 // import {Link} from 'react-router-dom';
 import styles from './Home.scss';
 import icon from "../../resources/icon.svg"
 import iconExternal from "../../resources/external-link.svg"
-// import fetch from 'electron-fetch'
 
 type Props = {};
 
 export default class Home extends Component < Props > {
-  // props : Props;
   constructor(props) {
     super(props);
     this.state = {
@@ -42,15 +39,13 @@ export default class Home extends Component < Props > {
     return (
       <div>
         <div className={styles.container} data-tid="container">
+          <p>⚖️ MIT License</p>
           <img className={styles.logo} src={icon} data-tid="logo" />
           <h2>CheatSheet</h2>
           <div className={styles.containerBox} data-tid="containerBox">
             {this.state.git}
           </div>
         </div>
-        <footer>
-          <p>⚖️ MIT License</p>
-        </footer>
       </div>
     );
   }
