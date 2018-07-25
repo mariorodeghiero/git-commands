@@ -27,7 +27,7 @@ export default class Home extends Component < Props > {
             </a>
             <hr />
             <ul>
-              {git.command.map((command, index) => (<li key={index}>{command.command}</li>))}
+              {git.command.map((command, index) => (<li key={index} title={command.note}>{command.command}</li>))}
             </ul>
           </div>
 ))

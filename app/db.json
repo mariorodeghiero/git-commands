@@ -22,8 +22,8 @@
         },
         {
           "id": 4,
-          "command": "git config format.pretty oneline.",
-          "note": "xxx"
+          "command": "git config --global format.pretty oneline",
+          "note": "Configure default format"
         },
         {
           "id": 5,
@@ -61,7 +61,8 @@
         {
           "id": 1,
           "command": "git diff --stat",
-          "note": ""
+          "note":
+            "Show changes between commits, commit and working tree, etc..."
         },
         {
           "id": 2,
@@ -82,7 +83,7 @@
         {
           "id": 5,
           "command": "git log --graph --oneline --decorate --all",
-          "note": ""
+          "note": "A simple one line to the point answer"
         },
         {
           "id": 6,
@@ -92,7 +93,7 @@
         {
           "id": 7,
           "command": "git log --help",
-          "note": ""
+          "note": "List help options"
         }
       ]
     },
@@ -142,27 +143,31 @@
         {
           "id": 1,
           "command": "git commit -m \"Add three files\"",
-          "note": ""
+          "note":
+            "Commit changes to head (but not yet to the remote repository)"
         },
         {
           "id": 2,
           "command": "git commit -a -m \"Do something once more\"",
-          "note": ""
+          "note":
+            "Commit any files you've added with git add, and also commit any files you've changed since then."
         },
         {
           "id": 3,
           "command": "git commit --amend -m \"enter your message\"",
-          "note": ""
+          "note": "Make the current changes part of the previous commit."
         },
         {
           "id": 4,
           "command": "git reset --soft HEAD^",
-          "note": ""
+          "note":
+            "To restore everything back to the way it was prior to the last commit and if you want to keep your changes."
         },
         {
           "id": 5,
           "command": "git reset --hard origin/master",
-          "note": ""
+          "note":
+            "To restore everything back to the way it was prior to the last commit and if you DON'T care about keeping the changes."
         }
       ]
     },
