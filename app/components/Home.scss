@@ -1,27 +1,22 @@
+// custom scroll-bar
+@mixin custom-scroll-bar() {
+  &::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #084658;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #002b36;
+  }
+}
+
 .container {
   min-height: 660px;
   width: 100%;
-  h2 {
-    padding: 20px;
-    margin-bottom: 30px;
-    font-size: 1.6rem;
-    font-weight: 300;
-    // color: #aeb1b0;
-    color: #d3d3d3;
-  }
-  p {
-    margin: 20px;
-    float: right;
-    font-size: 0.8rem;
-  }
-  .logo {
-    float: left;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    width: 28px;
-    height: 28px;
-  }
   .containerBox {
     align-content: space-between;
     justify-content: space-around;
@@ -56,26 +51,22 @@
         opacity: 0.1;
         width: 70%;
       }
-      ul {
-        margin-left: 30px;
-        padding-top: 20px;
-        li {
-          padding: 5px;
-          font-size: 0.9rem;
-          &:hover {
-            font-weight: 200;
-            color: #dfdbdb;
+      nav {
+        height: 250px;
+        overflow: auto;
+        @include custom-scroll-bar() ul {
+          margin-left: 30px;
+          padding-top: 20px;
+          li {
+            padding: 5px;
+            font-size: 0.9rem;
+            &:hover {
+              font-weight: 200;
+              color: #dfdbdb;
+            }
           }
         }
       }
     }
-  }
-}
-
-footer {
-  bottom: 0;
-  width: 100%;
-  p {
-    text-align: center;
   }
 }
