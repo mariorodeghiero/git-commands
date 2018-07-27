@@ -11,7 +11,6 @@
 
 html,
 body {
-  // position: relative;
   color: #aeb1b0;
   height: 100vh;
   background-color: #002b36;
@@ -20,7 +19,6 @@ body {
     rgba(4, 131, 163, 0.5) 10%,
     rgba(0, 43, 54, 0.7)
   );
-  // overflow-y: hidden;
 }
 
 h1,
@@ -41,15 +39,3 @@ button {
 li {
   list-style: none;
 }
-
-// a {
-//   color: white;
-//   opacity: 0.75;
-//   text-decoration: none;
-// }
-
-// a:hover {
-//   opacity: 1;
-//   text-decoration: none;
-//   cursor: pointer;
-// }

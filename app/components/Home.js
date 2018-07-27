@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 // import {Link} from 'react-router-dom';
 import styles from './Home.scss';
 import iconExternal from "../../resources/external-link.svg"
-import Header from './Header/Header';
+import Header from './header/Header';
 
 type Props = {};
 

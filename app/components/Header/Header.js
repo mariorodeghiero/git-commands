@@ -9,7 +9,7 @@ class Header extends Component {
       <div className={styles.headerContainer} src={icon} data-tid="headerContainer" >
         <header >
           <p>⚖️ MIT License</p>
-          <img className={styles.logo} src={icon} data-tid="logo" />
+          <img className={styles.logo} src={icon} data-tid="logo" alt="Git logo" />
           <h2>CheatSheet</h2>
         </header>
       </div>

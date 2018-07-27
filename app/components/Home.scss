@@ -54,16 +54,17 @@
       nav {
         height: 250px;
         overflow: auto;
-        @include custom-scroll-bar() ul {
-          margin-left: 30px;
-          padding-top: 20px;
-          li {
-            padding: 5px;
-            font-size: 0.9rem;
-            &:hover {
-              font-weight: 200;
-              color: #dfdbdb;
-            }
+        @include custom-scroll-bar();
+      }
+      ul {
+        margin-left: 30px;
+        padding-top: 20px;
+        li {
+          padding: 5px;
+          font-size: 0.9rem;
+          &:hover {
+            font-weight: 200;
+            color: #dfdbdb;
           }
         }
       }
