@@ -1,11 +1,11 @@
 // @flow
-import React, {Component} from 'react';
+import React, {Component} from '../../../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
 // import {Link} from 'react-router-dom';
 import styles from './Home.scss';
-import iconExternal from "../../resources/external-link.svg"
-import Header from './header/Header';
+import iconExternal from "../../../resources/external-link.svg"
+import Header from '../Header/Header';
 
-type Props = {};
+// type Props = {};
 
 export default class Home extends Component < Props > {
   constructor(props) {
@@ -32,8 +32,8 @@ export default class Home extends Component < Props > {
               </ul>
             </nav>
           </section>
-))
-         return this.setState({git})
+        ))
+        return this.setState({ git })
       })
       .catch(err => console.error(err))
   }

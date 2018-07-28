@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react'
 import icon from "../../../resources/icon.svg"
 import styles from'./Header.scss'
+
 
 class Header extends Component {
   state = {  }
