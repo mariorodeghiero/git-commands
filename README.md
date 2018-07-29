@@ -4,7 +4,7 @@ GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-pl
 
 ## Screenshot
 
-![Git CheeatSheet](https://media.giphy.com/media/623JUdoSf7apsfh749/giphy.gif)
+![Git CheeatSheet](https://user-images.githubusercontent.com/24671133/43362218-2a5a0480-92bb-11e8-9c7c-76b72e067958.gif)
 
 ## Built With
 
