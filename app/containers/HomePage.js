@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Home from '../components/main/Main';
+import Home from '../components/home-1/Home';
 
 type Props = {};
 
