@@ -20,7 +20,7 @@ GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-pl
 ## Prerequisites
 
 * **Requires a node version >= 7 and an npm version >= 4.**
-* **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/chentsulin/electron-react-boilerplate/issues/400)**
+* **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/mariorodeghiero/git-cheatsheet/issues/2)**
 
 ## Install
 
