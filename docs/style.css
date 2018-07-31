@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100");
+html,
+body {
+    color: #aeb1b0;
+    height: 100vh;
+    background-color: #002b36;
+    background-image: linear-gradient( 90deg, rgba(4, 131, 163, 0.5) 10%, rgba(0, 43, 54, 0.7));
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+li,
+span,
+button {
+    font-family: "Roboto";
+    font-weight: 100;
+    line-height: 1.1;
+    letter-spacing: 0.025em;
+}
+
+li {
+    list-style: none;
+}
+
+.btn-dark {
+    background-color: #000000;
+    color: #ffffff;
+}

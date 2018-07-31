@@ -1,3 +1,6 @@
+[![GitHub](https://img.shields.io/github/tag/mariorodeghiero/git-cheatsheet.svg?style=flat-square)](https://github.com/mariorodeghiero/git-cheatsheet/tags)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 # Git CheatSheet
 
 GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-platform, providing quick access to the main Git commands and with direct links to the documentation.
@@ -5,6 +8,8 @@ GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-pl
 ## Screenshot
 
 ![Git CheeatSheet](https://user-images.githubusercontent.com/24671133/43362218-2a5a0480-92bb-11e8-9c7c-76b72e067958.gif)
+
+**Note!!** You can download the App for Mac and Windows in [Git CheatSheet](https://mariorodeghiero.com/git-cheatsheet/).
 
 ## Built With
 
@@ -65,6 +70,11 @@ To package apps with options:
 ```bash
 $ npm run package -- --[option]
 ```
+
+To improve the usability of this App, you can create keyboard shortcuts to start quickly.
+
+* For Mac_OS use "Automator".
+* For Windows access "Properties" of the App.
 
 ## Contributing
 
