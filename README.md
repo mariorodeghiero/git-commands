@@ -9,7 +9,7 @@ GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-pl
 
 ![Git CheeatSheet](https://user-images.githubusercontent.com/24671133/43362218-2a5a0480-92bb-11e8-9c7c-76b72e067958.gif)
 
-**Note!!** You can download the App for Mac and Windows in [Git CheatSheet](https://mariorodeghiero.com/git-cheatsheet/).
+<!-- **Note!!** You can download the App for Mac and Windows in [Git CheatSheet](https://mariorodeghiero.com/git-cheatsheet/). -->
 
 ## Built With
 
