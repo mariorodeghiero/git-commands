@@ -11,7 +11,7 @@ class Header extends Component {
         <header >
           <p>⚖️ MIT License</p>
           <img className={styles.logo} src={icon} data-tid="logo" alt="Git logo" />
-          <h2>CheatSheet</h2>
+          <h2>Commands</h2>
         </header>
       </div>
     );

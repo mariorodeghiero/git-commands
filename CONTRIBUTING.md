@@ -9,4 +9,4 @@
 
 \*\*After your pull request is merged\*\*, you can safely delete your branch.
 
-### [<-- Back](https://github.com/mariorodeghiero/git-cheatsheet)
+### [<-- Back](https://github.com/mariorodeghiero/git-commands)

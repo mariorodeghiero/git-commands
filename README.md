@@ -1,15 +1,15 @@
-[![GitHub](https://img.shields.io/github/tag/mariorodeghiero/git-cheatsheet.svg?style=flat-square)](https://github.com/mariorodeghiero/git-cheatsheet/tags)
+[![GitHub](https://img.shields.io/github/tag/mariorodeghiero/git-commands.svg?style=flat-square)](https://github.com/mariorodeghiero/git-commands/tags)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-# Git CheatSheet
+# Git Commands
 
-GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-platform, providing quick access to the main Git commands and with direct links to the documentation.
+Git Commands is a desktop app built with ElectronJS and ReactJS to be cross-platform, providing quick access to the main Git commands and with direct links to the documentation.
 
 ## Screenshot
 
-![Git CheeatSheet](https://user-images.githubusercontent.com/24671133/43362218-2a5a0480-92bb-11e8-9c7c-76b72e067958.gif)
+![Git Commands](https://user-images.githubusercontent.com/24671133/43362218-2a5a0480-92bb-11e8-9c7c-76b72e067958.gif)
 
-**Note!!** You can download the App for **Mac** and **Windows** in [Git CheatSheet](https://mariorodeghiero.com/git-cheatsheet/).
+**Note!!** You can download the App for **Mac** and **Windows** in [Git Commands](https://mariorodeghiero.com/git-commands/).
 
 ## Built With
 
@@ -20,14 +20,14 @@ GIT CheatSheet is a desktop app built with ElectronJS and ReactJS to be cross-pl
 ## Prerequisites
 
 * **Requires a node version >= 7 and an npm version >= 4.**
-* **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/mariorodeghiero/git-cheatsheet/issues/2)**
+* **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/mariorodeghiero/git-commands/issues/2)**
 
 ## Install
 
 First, clone the repo via git:
 
 ```bash
-git clone --depth=1 https://github.com/mariorodeghiero/git-cheatsheet.git your-project-name
+git clone --depth=1 https://github.com/mariorodeghiero/git-commands.git your-project-name
 ```
 
 And then install dependencies with yarn.

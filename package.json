@@ -1,6 +1,6 @@
 {
   "name": "electron-react-boilerplate",
-  "productName": "Git CheatSheet",
+  "productName": "Git Commands",
   "version": "0.13.3",
   "description":
     "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
@@ -56,7 +56,7 @@
     ]
   },
   "build": {
-    "productName": "Git CheatSheet",
+    "productName": "Git Commands",
     "appId": "org.develar.ElectronReact",
     "files": [
       "dist/",

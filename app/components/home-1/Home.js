@@ -14,7 +14,7 @@ export default class Home extends Component < Props > {
     };
   }
   componentDidMount() {
-    const url = "https://raw.githubusercontent.com/mariorodeghiero/git-cheatsheet/master/app/db.j" +
+    const url = "https://raw.githubusercontent.com/mariorodeghiero/git-commands/master/app/db.j" +
         "son"
     fetch(url)
       .then(res => res.json())
@@ -29,7 +29,7 @@ export default class Home extends Component < Props > {
                   className={styles.externalLink}
                   src={iconExternal}
                   data-tid="externalLink"
-                  alt="Git icon" 
+                  alt="Git icon"
                 />
               </a>
               <hr />

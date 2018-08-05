@@ -44,10 +44,10 @@ export default class MenuBuilder {
 
   buildDarwinTemplate() {
     const subMenuAbout = {
-      label: 'Git CheatSheet',
+      label: 'Git Commands',
       submenu: [
         {
-          label: 'About Git CheatSheet',
+          label: 'About Git Commands',
           selector: 'orderFrontStandardAboutPanel:'
         },
         {
@@ -144,21 +144,21 @@ export default class MenuBuilder {
         {
           label: 'Learn More',
           click() {
-            shell.openExternal('https://github.com/mariorodeghiero/git-cheatsheet');
+            shell.openExternal('https://github.com/mariorodeghiero/git-commands');
           }
         },
         {
           label: 'Documentation',
           click() {
             shell.openExternal(
-              'https://github.com/mariorodeghiero/git-cheatsheet/blob/master/README.md'
+              'https://github.com/mariorodeghiero/git-commands/blob/master/README.md'
             );
           }
         },
         {
           label: 'Search Issues',
           click() {
-            shell.openExternal('https://github.com/mariorodeghiero/git-cheatsheet/issues');
+            shell.openExternal('https://github.com/mariorodeghiero/git-commands/issues');
           }
         }
       ]
@@ -235,21 +235,21 @@ export default class MenuBuilder {
           {
             label: 'Learn More',
             click() {
-              shell.openExternal('https://github.com/mariorodeghiero/git-cheatsheet');
+              shell.openExternal('https://github.com/mariorodeghiero/git-commands');
             }
           },
           {
             label: 'Documentation',
             click() {
               shell.openExternal(
-                'https://github.com/mariorodeghiero/git-cheatsheet/blob/master/README.md'
+                'https://github.com/mariorodeghiero/git-commands/blob/master/README.md'
               );
             }
           },
           {
             label: 'Search Issues',
             click() {
-              shell.openExternal('https://github.com/mariorodeghiero/git-cheatsheet/issues');
+              shell.openExternal('https://github.com/mariorodeghiero/git-commands/issues');
             }
           }
         ]

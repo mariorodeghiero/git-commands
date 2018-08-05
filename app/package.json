@@ -1,6 +1,6 @@
 {
   "name": "electron-react-boilerplate",
-  "productName": "Git CheatSheet",
+  "productName": "Git Commands",
   "version": "1.0.0",
   "description": "App built with Electron and ReactJS",
   "main": "./main.prod.js",
