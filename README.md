@@ -7,7 +7,7 @@ Git Commands is a desktop app built with ElectronJS and ReactJS to be cross-plat
 
 ## Screenshot
 
-![Git Commands](./resources/screenShot.png)
+![Git Commands](./resources/screenShot-1.png)
 
 **Note!!** You can download the App for **Mac** and **Windows** in [Git Commands](https://mariorodeghiero.com/git-commands/).
 
