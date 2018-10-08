@@ -94,6 +94,11 @@
           "id": 7,
           "command": "git log --help",
           "note": "List help options"
+        },
+        {
+          "id": 8,
+          "command": "git log -m --name-status",
+          "note": "Lists the name and status of each file included in only merge commits."
         }
       ]
     },
