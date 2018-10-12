@@ -137,6 +137,11 @@
           "id": 6,
           "command": "git reset file-name.txt",
           "note": "Untrack files."
+        },
+        {
+          "id": 7,
+          "command": "git add -i",
+          "note": "Add/remove/patch/diff files interactively to and from the staging area."
         }
       ]
     },
