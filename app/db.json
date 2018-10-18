@@ -98,7 +98,8 @@
         {
           "id": 8,
           "command": "git log -m --name-status",
-          "note": "Lists the name and status of each file included in only merge commits."
+          "note":
+            "Lists the name and status of each file included in only merge commits."
         }
       ]
     },
@@ -141,7 +142,8 @@
         {
           "id": 7,
           "command": "git add -i",
-          "note": "Add/remove/patch/diff files interactively to and from the staging area."
+          "note":
+            "Add/remove/patch/diff files interactively to and from the staging area."
         }
       ]
     },
@@ -264,6 +266,11 @@
         },
         {
           "id": 5,
+          "command": "git checkout branch-name fileName.txt",
+          "note": "Recovers the file to the last Commit"
+        },
+        {
+          "id": 6,
           "command": "git merge branch-name",
           "note": "Merge Branch."
         }
